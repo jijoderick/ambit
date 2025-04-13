@@ -1,4 +1,4 @@
-Installing FEniCSx using docker image.
+# Installing FEniCSx using docker image.
 ```
 sudo docker run -ti ghcr.io/fenics/dolfinx/dolfinx:v0.6.0
 ```
@@ -19,4 +19,9 @@ testing the installation
 ```
 cd /home/shared/test/
 ./runtests.py
+```
+# Installing FEniCSx using singularity from docker image.
+## Using the docker image of ambit provided  by Marc
+```
+singularity  pull ambit_fe.img docker://ghcr.io/marchirschvogel/ambit:latest
 ```
