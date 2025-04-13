@@ -25,3 +25,7 @@ cd /home/shared/test/
 ```
 singularity  pull ambit_fe.img docker://ghcr.io/marchirschvogel/ambit:latest
 ```
+## Using the docker image of ambit developer version provided  by Marc
+```
+singularity  pull ambit_fe.img docker://ghcr.io/marchirschvogel/ambit:devenv
+```
